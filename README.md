@@ -134,6 +134,25 @@ The system will:
 
 ---
 
+## Results
+
+The system was evaluated on a 50-question subset of the SQuAD 2.0 benchmark.
+
+| Metric | Score |
+|----------|--------|
+| Exact Match (EM) | 66.0 |
+| F1 Score | 66.0 |
+| Has Answer EM | 81.8 |
+| Has Answer F1 | 81.8 |
+| No Answer EM | 53.6 |
+| No Answer F1 | 53.6 |
+
+Key findings:
+
+- The model performed strongly on answerable questions, achieving over 81% Exact Match.
+- Detecting unanswerable questions remained significantly more challenging, with performance around 54%.
+- The results highlight the difficulty of hallucination prevention and support the motivation behind the proposed validation strategy.
+
 ## Contributors
 
 - Amit Reich
